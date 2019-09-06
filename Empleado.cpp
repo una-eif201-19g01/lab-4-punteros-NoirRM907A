@@ -43,11 +43,8 @@ float Empleado::aumentarSalario() {
 	if ((annioExp == 1) && (annioExp < 3)) {
 		return (salario * 0.2);
 	}
-	else {
-		if (annioExp <= 3) {
-			return (salario * 0.5);
-		}
-	}
+	else 
+	    return (salario * 0.5);
 }
 
 void Empleado::revision(bool* banderaRev) {}
